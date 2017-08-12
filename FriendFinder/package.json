@@ -1,0 +1,17 @@
+{
+  "name": "gt-friend-finder",
+  "version": "1.0.0",
+  "description": "helps inidividuals find future best friends",
+  "main": "server.js",
+  "scripts": {
+    "test": "\"echo \\\"Error: on test specified\\\" && exit 1\"",
+    "start": "node server.js"
+  },
+  "author": "Arthur L. Rozier IV",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "path": "^0.12.7"
+  }
+}
