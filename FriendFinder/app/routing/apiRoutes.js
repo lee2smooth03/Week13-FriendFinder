@@ -28,6 +28,6 @@ module.exports = function(app){
 
     app.post("/api/friends", function(req, res){
         //sending an object to the freinds array .push
-        
+        friends.push(req.body);
     });
 };
